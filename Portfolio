@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>social_media</title>
+</head>
+<body>
+
+
+    <header>
+        <h1 >My web'olio</h1>
+        <pre>
+        <p>My hightest Education   |   My biggest achievements</p>
+        </pre>
+    </header>
+
+
+
+    <main>
+        <section>
+            education : "" | from: ""
+        </section>
+        <hr>
+        <table>
+            <thead>
+            <caption>
+                My Grades
+            </caption>
+            <tr><th colspan="4">subjects</th></tr>
+            <tr>
+                <th>computer</th>
+                <th>physics</th>
+                <th>chemistry</th>
+                <th>mathmatics</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>""</td>
+                <td>""</td>
+                <td>""</td>
+                <td>""</td>
+            </tr>
+            </tbody>
+        </table>
+
+        <hr>
+        <section>
+            experiences: Robotics , 3d modlling , c++ and python.
+        </section>
+
+        <hr>
+        <article> 
+            my background :
+        </article>
+        <hr>
+
+        <aside>buy my product now!!!!</aside>
+        <div>
+            <p>this is a div</p>
+        </div>
+    </main>
+    <hr>
+    <h4>Before going away please tell my some thing about yourself</h4>
+    <form action="action.php">
+        <input type="text" placeholder="tell me your name">
+        <br>
+        <br>
+        <input type="text" placeholder="your email">
+        <br>
+        <br>
+        <input type="password" placeholder="your email password">
+        <br>
+        <br>
+        <label for="1">
+        <input type="radio" value="male" name="gender" id="1">male
+        </label>
+        <br>
+        <label for="2">
+        <input type="radio" value="female" name="gender" id ="2">female
+        </label>
+        <br>
+        <label for="3">
+        <input type="radio" value="male" name="gender" id = "3">male
+        </label>
+        <br>
+        <label for="4">
+        <input type="radio" value="helicopter" name="gender" id="4">helicopter
+        </label>
+        <br>
+        <select name = coutry >
+            <option value="null">CHOOSE A COUNTRY</option>
+            <option value="Nepal">Nepal</option>
+            <option value="India">India</option>
+            <option value="China">China</option>
+            <option value="Singhapore">Singhapore</option>
+            <option value="Maldives">Maldives</option>
+        </select>
+        <br><br>
+        <textarea name="report critique" id="1" placeholder="write a report or a critique" rows="10" ></textarea>
+        <br>
+        <input type="submit" value="submit">
+    </form>
+
+    <hr>
+    <footer>
+        <h6 style="font-size: 15px;">you can find me at <a href="https://github.com/SushankGiri" target="_main">github</a> or contact me at 9854440640</h6>
+        <pre>
+    my favourite youtuber(unrelated):<a href="https://www.youtube.com/channel/UCJ0-OtVpF0wOKEqT2Z1HEtA" target="_main"><img width = "60" src="electroboom.png"></a>click to go to his youtube
+        </pre>
+        <h6>I learned how to make a website from here</h6>
+    </footer>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/HcOc7P5BMi4" title="HTML Tutorial for Beginners | Complete HTML with Notes &amp; Code" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+
+</html>
